@@ -37,9 +37,15 @@ const myHeors = ["shaktiman", "naagraj"]
 
 
 */
+//.join >> saare array elements ko ek string me rkh deta h, defaul separator >> (,) 
+// >>mtlb jb string bnegi to elements ke beech me kya ayega
+
+//arr.join('') >> means 1 2 3 4 5 return hogi
+
 
 const  myArr=[1,2,3,4,5];
-const myArr2=myArr.join();
+const myArr2=myArr.join(' ');
+console.log(myArr2);
 
 
 //shift() and unshift()
@@ -55,29 +61,29 @@ const myArr2=myArr.join();
 //arr.slice(1,3) >>isme 3rd index included nahi hota h and original array me diff nahi ata h
 //arr.splice(1,3)>> 3rd index included h and original array se ht jayega 1,2,3 index.
 
-console.log("A ", myArr);
+// console.log("A ", myArr);
 
-const myn1 = myArr.slice(1, 3)
+// const myn1 = myArr.slice(1, 3)
 
-console.log(myn1);
-console.log("B ", myArr);
-
-
-const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr);
-console.log(myn2);
+// console.log(myn1);
+// console.log("B ", myArr);
 
 
-
-const  check=[1,2,3,4,5];
-console.log("Check is ",check);
-console.log(check.splice(1,2))
-console.log(check);
+// const myn2 = myArr.splice(1, 3)
+// console.log("C ", myArr);
+// console.log(myn2);
 
 
-let items = [[1, 2],[3, 4],
-    [5, 6]
-  ];
+
+// const  check=[1,2,3,4,5];
+// console.log("Check is ",check);
+// console.log(check.splice(1,2))
+// console.log(check);
 
 
-console.log(Array.isArray(items));
+// let items = [[1, 2],[3, 4],
+//     [5, 6]
+//   ];
+
+
+// console.log(Array.isArray(items));
